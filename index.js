@@ -36,4 +36,4 @@ app.post("/create-checkout-session", async (req, res) => {
 });
 
 
-app.listen(4242, "0.0.0.0", () => console.log("Servidor rodando na porta 4242"));
+app.listen();
